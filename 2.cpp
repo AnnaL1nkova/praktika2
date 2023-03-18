@@ -50,7 +50,7 @@ public class Program
     static void Main()
     {
         Student anna = new Student("abcd", new DateTime(2003, 03, 16), 666, new List<int> {5, 2, 3, 3, 4});
-        dima.Changeinfo(secondName: "Linkova", BdayDate: new DateTime(2004,02,15), group: 621);
+        anna.Changeinfo(secondName: "Linkova", BdayDate: new DateTime(2004,02,15), group: 621);
         anna.PrintInfo();
     }
 }
